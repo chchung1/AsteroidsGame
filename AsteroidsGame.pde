@@ -36,4 +36,7 @@ public void keyPressed(){
   if(key == ' '){
     bob.hyperspace();
   }
+  if(key == 'B' || key == 'b') {
+    bob.brake();
+  }
 }
