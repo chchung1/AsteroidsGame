@@ -27,10 +27,10 @@ class Spaceship extends Floater
     }
     
     public double getX(){
-    return myCenterX();
+    return myCenterX;
     }
     
     public double getY(){
-    return myCenterY();
+    return myCenterY;
     }
 }
