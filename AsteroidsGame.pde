@@ -31,8 +31,8 @@ public void draw()
     }
   }
  
-  if (rocks.size() < 10)
-    rocks.add(new Asteroid());
+  if (rocks.size() < 10) {
+    rocks.add(new Asteroid());}
 }
 
 public void keyPressed() {
